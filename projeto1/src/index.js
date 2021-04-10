@@ -1,3 +1,4 @@
-const consoleLog = () => {
-    console.log('Hello World!')
-};
+import React from 'react';
+import { render } from 'react-dom';
+
+render(<h1 align= 'center'>Hello React Word!</h1>, document.getElementById('app'));
